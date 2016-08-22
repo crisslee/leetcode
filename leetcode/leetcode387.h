@@ -4,7 +4,7 @@ using namespace std;
 
 class Solution{
 public:
-	int firstuniqChar(string s){
+	int firstUniqChar(string s){
 		int n = s.length();
 		int sta[26] = { 0 };
 		for (int i = 0; i < n; i++)
@@ -17,7 +17,5 @@ public:
 				return i;
 		}
 		return -1;
-
-		
 	}
 };
