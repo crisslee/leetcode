@@ -1,7 +1,7 @@
-#include"leetcode387.h"
+#include"leetcode292.h"
 
 int main()
 {
 	Solution sol;
-	cout << sol.firstuniqChar("l") << endl;
+	cout << sol.canWinNim(99) << endl;
 }
